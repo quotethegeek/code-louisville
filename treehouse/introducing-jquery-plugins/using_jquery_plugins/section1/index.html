@@ -9,11 +9,11 @@
         <!--CSS-->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="js/animsition/animsition.min.css">
         <link rel="stylesheet" href="css/main.css">
-
     </head>
     <body>
-      <div class="row container">
+      <div class="row container animsition">
         <header class="row header">
           <div class="grid-third">
             <a href="index.html" class="logo"></a>
@@ -23,49 +23,32 @@
           </div>
           <div class="grid-third">
             <nav>
-              <a href="index.html">Home</a>
-              <a href="#" class="active">Work</a>
+              <a href="#" class="active">Home</a>
+              <a href="work.html">Work</a>
               <a href="team.html">Team</a>
             </nav>
           </div>
       </header><!--/header-->
         <div class="row">
           <div class="grid-full">
-            <h2>Our Work</h2>
-            <h4>Here’s a collection of our latest app builds</h4>
-            <h5>Want us to work on your project?</h5>
+
           </div>
-          <div class="grid-half item">
-            <div class="frame blue">
-              <img src="img/slide-dailyFeed.png" alt="" />
-            </div>
-            <h3>DailyFeed</h3>
-            <p>Your number one podcast app</p>
-            <a href="#" class="button">View Project</a>
-          </div>
-          <div class="grid-half item">
-            <div class="frame orange">
-              <img src="img/slide-chitChat.png" alt="" />
-            </div>
-            <h3>ChitChat</h3>
-            <p>The worldest easiest to use cross device chat app</p>
-            <a href="#" class="button">View Project</a>
-          </div>
-          <div class="grid-half item">
-            <div class="frame green">
-              <img src="img/slide-mixTape.png" alt="" />
-            </div>
-            <h3>MixTape</h3>
-            <p>An app to search, create and share mixtapes</p>
-            <a href="#" class="button">View Project</a>
-          </div>
-          <div class="grid-half item">
-            <div class="frame yellow">
-              <img src="img/slide-Kitt.png" alt="" />
-            </div>
-            <h3>KITT</h3>
-            <p>Turn your car into KITT from Knight Rider</p>
-            <a href="#" class="button">View Project</a>
+          <div class="main row">
+            <div class="grid-third">
+              <img src="img/sticker-team.png" alt="" />
+              <p>United we stand divided we fail.  Meet the all star team behind the agency.</p>
+              <a href="team.html" class="button">Meet the Team</a>
+            </div><!--/team-->
+            <div class="grid-third">
+              <img src="img/sticker-work.png" alt="" />
+              <p>Check our latest app builds or download them in the App Store.</p>
+              <a href="work.html" class="button">Latest Projects</a>
+            </div><!--/work-->
+            <div class="grid-third">
+              <img src="img/sticker-contact.png" alt="" />
+              <p>Have questions or requests?  Feel free to contact us, we’d love hear from you.</p>
+              <a href="#" class="button">Contact Us</a>
+            </div><!--/contact-->
           </div>
         </div><!--/main-->
         <footer>
@@ -83,6 +66,8 @@
           </div>
         </footer><!--/footer-->
         </div>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/animsition/jquery.animsition.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
-
 </html>
