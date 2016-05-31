@@ -27,7 +27,24 @@ Use 2 popular methods of data organization:
 XML, Extensible Markup Language: Markup data with tags. Can create your own tags. Breaking up into parts is called parsing.
 JSON, Easiest format for JavaScript to work with.
 
-Methods for requesting AJAX
+####Methods for requesting AJAX
 Web proxy: Allows you to bypoass a web browser's same-origin policy by retrieving data from another server, while keeping JAAX requests within the same domain.
+
 JSONP: JSON with padding
+*[] A method for requesting data from another web server by bypassing a web browser's "same origin" policy.
+*[] A way of sending data in a JavaScript file.
+*[] https://api.flickr.com/services/feeds/photos_public.gne?format=json is the method used to retrieve a JSON formatted version of Flickr Photo feed
+*[]jQuery's $.getJSON() method:
+  #[] A URL
+  #[] A JavaScript object to send ata to the server
+  #[] A callback function to process the response from the server
+*[] jQuery's $.each() method
+  #[] An object OR an array
+  #[] A callback function to process either the object's property names and values OR the array's items (The index value of current array item, The value of the current array item)
+
 CORS: Crossorigin resource sharing
+
+####API Keys
+*[] Lets a web developer connect with a third party API like Google maps
+*[] Lets a website limit access to its API
+*[] Lets a web track use of its API and charge money for its use.
