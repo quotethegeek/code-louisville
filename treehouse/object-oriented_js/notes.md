@@ -26,7 +26,7 @@ alert(s);
   * Element
 3. Custom Objects
 
-## Review
+### Review
 * Values stored in objects are properties
 * Functionality encapsulated by an object is known as a method.
 * A "String" is a Native Object
@@ -49,10 +49,27 @@ person.treehouseStudent;
 person["full name"];
 }
 ```
-## Review
+### Review
 * If I had the key of "full name" how would I access the value of that property on an object?
   * person["full name"]
 * Which of these is NOT a valid way to access a property, "name", on an object?
   * var key = "name"; cat.key; - cat.key is accessing a proptery called "key"
 * All object property keys are of the type String?
   * True
+
+## Constructor Function
+* Describes how an object should be created
+* Create similar objects
+* Each object created is known as an instance of that object type
+
+Example:
+```javascript
+function Contact(name, email) {
+  this.name = name;
+  this.email = email;
+}
+
+var contact = new Contact("Andrew", "andrew@teamtreehouse.com");
+```
+
+* "return this;" is not needed
