@@ -73,3 +73,11 @@ var contact = new Contact("Andrew", "andrew@teamtreehouse.com");
 ```
 
 * "return this;" is not needed
+
+### Review
+* The prototype property allows you to add properties and methods to objects with the same constructor function.
+
+## Prototypal Inheritance / Prototype Chain
+* Which sentence best describes the first argument passed in to the call() method?
+  * The first argument sets the value of this when the function is executed
+* The technique used in JS to share functionality between similar types of objects isknown as: Prototypal Inheritance
