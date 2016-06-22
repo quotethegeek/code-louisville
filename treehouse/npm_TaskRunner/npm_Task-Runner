@@ -1,0 +1,29 @@
+#NPM as a Task Runner
+
+###Common Tasks
+* Run Test Suite
+* Compiling Sass/TypeScript/CoffeeScript
+* Starting a Web Server
+* Starting a Worker
+
+```javascript
+{
+  ...
+  "scripts": {
+    "move-files": "mv source/* destination/"
+  },
+  ...
+}
+```
+
+* To run: npm run <task>
+
+###Types of Tasks
+* Built-in
+  * Common
+  * "test"
+    * npm run test OR npm test
+
+* Arbitrary
+  * Make yourself
+  * ex: "compile" : npm run compile
