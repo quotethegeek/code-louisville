@@ -1,0 +1,14 @@
+{
+  "name": "hash_generator",
+  "version": "0.0.1",
+  "description": "A password hash generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raven",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
