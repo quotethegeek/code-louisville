@@ -44,3 +44,7 @@ app.listen(3000);
 * Express route parameters allow you to request different data simply by changing the URL
 * The request object is like a JavaScript bundle of the incoming HTTP Request
 * The request object gives you access to the "hostname" where the server is serving from.
+* The response object’s 'render' method is used to turn templates into HTML.
+* Status codes can be set manually on the response object.
+* The response object’s `send` method can be used to send a string or JSON.
+* In express the '?' character at the end of a route parameter indicates that it is optional.
